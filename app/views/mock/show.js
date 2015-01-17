@@ -1,6 +1,4 @@
 $(function(){
-	$(".media").waypoint(
-		function(){$(this).toggleClass('animated fadeIn');},
-		{ofset: '80%'}
-	);
+	$(".container").toggleClass('animated fadeIn');
+	$(".namecard").toggleClass('animated rollIn');
 });
