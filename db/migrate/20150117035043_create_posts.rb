@@ -5,7 +5,8 @@ class CreatePosts < ActiveRecord::Migration
       t.boolean :public
       t.integer :age
       t.text :address
-      t.integer :scale
+      t.string :scale
+      t.text :story
 
       t.timestamps
     end
