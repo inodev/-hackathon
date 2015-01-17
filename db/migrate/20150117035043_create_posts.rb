@@ -3,7 +3,7 @@ class CreatePosts < ActiveRecord::Migration
     create_table :posts do |t|
       t.string :name
       t.boolean :public
-      t.integer :age
+      t.string :age
       t.text :address
       t.string :scale
       t.text :story

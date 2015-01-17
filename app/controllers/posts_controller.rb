@@ -2,7 +2,7 @@ class PostsController < ApplicationController
   DISPLAY_POSTS = 30
 
   def index
-    @posts = Post.all.limit(DISPLAY_POSTS)
+    @posts = Post.all.limit(DISPLAY_POSTS).order('id DESC')
   end
 
   def show

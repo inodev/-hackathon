@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 20150117035043) do
   create_table "posts", force: true do |t|
     t.string   "name"
     t.boolean  "public"
-    t.integer  "age"
+    t.string   "age"
     t.text     "address"
     t.string   "scale"
     t.text     "story"
